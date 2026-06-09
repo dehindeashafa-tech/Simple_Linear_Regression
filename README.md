@@ -16,7 +16,7 @@ This project performs **Simple Linear Regression** analysis on a marketing datas
 
 ## 🛠 Technologies Used
 
-- **Python** 3.x
+- **Python** 3.13
 - **pandas** – Data manipulation
 - **numpy** – Numerical operations
 - **matplotlib & seaborn** – Data visualization
@@ -35,18 +35,13 @@ The dataset contains marketing spend across different channels and corresponding
 - `Social Media`: Budget spent on Social Media
 - `Sales`: Revenue generated (target variable)
 
-> **Note:** Update column names in the code if your dataset uses different headers.
+
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 Steps for the Project
 
-### 1. Setup Environment
-
-```bash
-# Create virtual environment (optional)
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+## 1. Setup Environment
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn statsmodels scipy
@@ -54,12 +49,11 @@ pip install pandas numpy matplotlib seaborn statsmodels scipy
 
 ### 2. Upload Dataset
 
-- Place your dataset file (e.g., `marketing_data.csv`) in the project folder.
-- Or upload it directly in Jupyter Notebook.
+-  upload data (marketing_and_sales_data_evaluate_lr.csv) directly in Jupyter Notebook.
 
 ### 3. Run the Analysis
 
-Open `marketing_regression_analysis.ipynb` (or the `.py` script) in Jupyter Notebook and run all cells step by step.
+Open `Simple_Linear_regression_analysis.ipynb' in Jupyter Notebook and run all cells step by step.
 
 **Key Steps Covered:**
 1. Load and explore data + handle missing values
@@ -88,10 +82,10 @@ After running the analysis, you will get:
 ```
 marketing-roi-analysis/
 ├── README.md
-├── marketing_regression_analysis.ipynb     # Main Jupyter Notebook
-├── marketing_data.csv                      # Your dataset
+├── Simple_Linear_regression_analysis.ipynb     # Main Jupyter Notebook
+├── marketing_and_sales_data_evaluate_lr.csv    # The dataset
 ├── requirements.txt
-└── outputs/                                # Saved plots and results (optional)
+└── outputs/                                # Saved plots and results
 ```
 
 ---
@@ -125,23 +119,7 @@ The final section provides actionable insights such as:
 
 ---
 
-## 👤 Author
+## 👤 Author: Ashafa Oladehinde
 
 Built as a step-by-step learning project for Marketing Analytics using Python.
 
----
-
-**Feel free to customize this README with your actual results, plots, and findings!**
-
-```
-
-**File Created Successfully!** 🎉
-
-You can now view or download the `README.md` file. 
-
-Would you like me to:
-- Generate a full Jupyter Notebook (.ipynb) file with all the code?
-- Create a `requirements.txt` file?
-- Add sample output images or results section? 
-
-Just let me know!
